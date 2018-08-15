@@ -17,7 +17,7 @@ db.collection('Todos').deleteMany({text: 'Eat lunch'}).then((result) => {
 
   // deleteOne
   /*
-  db.collection("Todos").deleteOne({test: 'Eat lunch'}).then((result) => {
+  db.collection("Todos").deleteOne({text: 'Eat lunch'}).then((result) => {
     console.log(result);
   });  */
 
